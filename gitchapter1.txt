@@ -1,0 +1,102 @@
+Git is a tool that helps you track changes in your code and work on projects with other developers.
+
+Think of Git as a save system for your code. It remembers different versions of your project so you can go back to an earlier version whenever you need to.
+
+## Why do we use Git?
+
+Imagine you're building a website.
+
+- You write some code today.
+- Tomorrow, you change the design.
+- The next day, your code breaks.
+
+Without Git, recovering the original code might be difficult. With Git, you can track changes and restore an earlier version.
+
+## Important Git concepts
+
+SaaS Web Design Agency | Ramotion
+
+1. Git
+
+A version control system that tracks changes to files on your computer.
+
+Is GitHub down? | GitHub outage details
+
+2. GitHub
+
+A website that hosts Git repositories online, making it easier to share code and collaborate with others.
+
+Git and GitHub are different: Git is the tool; GitHub is an online platform.
+
+Git - Tech Start UCalgary Documentation
+
+3. Repository (repo)
+
+A project folder whose files and change history are tracked by Git.
+
+## 5 basic Git commands
+
+These are some of the first commands you should learn.
+
+| Command | What it does |
+| --- | --- |
+| `git init` | Starts Git in a project folder |
+| `git add .` | Stages changes for saving |
+| `git commit -m "message"` | Saves a snapshot of staged changes |
+| `git status` | Shows the current state of your files |
+| `git push` | Uploads committed changes to a remote repository |
+
+For example, your workflow might look like this:
+
+Write your code
+
+Make changes to your project files.
+
+`git add .`
+
+Choose changes to include in the next snapshot.
+
+`git commit -m "First version"`
+
+Save a snapshot in your local Git history.
+
+`git push`
+
+Upload your commits to a remote repository, such as GitHub.
+
+Note: `git push` requires a configured remote repository and an appropriate branch.
+
+## Git vs. GitHub
+
+| Git | GitHub |
+| --- | --- |
+| Software installed on your computer | Online hosting platform |
+| Tracks changes and versions | Hosts repositories online |
+| Can work without the internet | Usually accessed online |
+| Used through commands or graphical apps | Used through a website or other tools |
+
+## How should you start learning Git?
+
+1. Understand what Git is and why version control matters.
+2. Install Git on your computer.
+3. Learn `init`, `add`, `commit`, `status`, and `log`.
+4. Create a GitHub account.
+5. Learn to push and pull code between your computer and GitHub.
+
+What would you like to learn next?
+
+Your experience level
+
+beginner I'm a complete beginner.
+
+I already know some programming.
+
+What do you want to learn?
+
+commands Git commands with practical examples
+
+Git and GitHub from scratch
+
+How developers use Git in real projects
+
+ Start learning
